@@ -1,0 +1,2 @@
+vin : main.o msort.o qsort.o
+	gcc main.o msort.o qsort.o -o vin1
