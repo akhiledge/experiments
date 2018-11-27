@@ -1,0 +1,4 @@
+mod: app.o                                                                 
+    gcc -o mod app.c                                                            
+all:                                                                            
+    $(MAKE) && $(shell insmod kmod.ko devname=childmod) && $(shell ./mod /dev/childmod) && $(shell rmmod childmod) 

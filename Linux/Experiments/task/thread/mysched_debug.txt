@@ -1,0 +1,1529 @@
+Sched Debug Version: v0.11, 4.16.6 #3
+ktime                                   : 97411513.286721
+sched_clk                               : 97413990.221121
+cpu_clk                                 : 97413907.941695
+jiffies                                 : 24277879
+sched_clock_stable()                    : 1
+
+sysctl_sched
+  .sysctl_sched_latency                    : 18.000000
+  .sysctl_sched_min_granularity            : 2.250000
+  .sysctl_sched_wakeup_granularity         : 3.000000
+  .sysctl_sched_child_runs_first           : 0
+  .sysctl_sched_features                   : 2021179
+  .sysctl_sched_tunable_scaling            : 1 (logaritmic)
+
+cpu#0, 3591.654 MHz
+  .nr_running                    : 0
+  .load                          : 0
+  .nr_switches                   : 32656256
+  .nr_load_updates               : 24352879
+  .nr_uninterruptible            : 2173
+  .next_balance                  : 24.277878
+  .curr->pid                     : 0
+  .clock                         : 97413908.628423
+  .clock_task                    : 97413908.628423
+  .cpu_load[0]                   : 368
+  .cpu_load[1]                   : 274
+  .cpu_load[2]                   : 186
+  .cpu_load[3]                   : 144
+  .cpu_load[4]                   : 116
+  .avg_idle                      : 444580
+  .max_idle_balance_cost         : 500000
+
+cfs_rq[0]:/autogroup-328
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1268989.030341
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -495669.708673
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 441
+  .runnable_load_avg             : 1
+  .util_avg                      : 436
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 441
+  .tg_load_avg                   : 654
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413908.628423
+  .se->vruntime                  : 1764658.739014
+  .se->sum_exec_runtime          : 1508108.121813
+  .se->load.weight               : 690
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 297
+  .se->avg.util_avg              : 437
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[0]:/autogroup-251
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 183523.792730
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1581134.946284
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 3
+  .runnable_load_avg             : 0
+  .util_avg                      : 3
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 3
+  .tg_load_avg                   : 112
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413905.647483
+  .se->vruntime                  : 1764647.030486
+  .se->sum_exec_runtime          : 184171.912575
+  .se->load.weight               : 1012
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 2
+  .se->avg.util_avg              : 3
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[0]:/autogroup-338
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 625.742538
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1764032.996476
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 52
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413875.929748
+  .se->vruntime                  : 1764633.415719
+  .se->sum_exec_runtime          : 7224.262489
+  .se->load.weight               : 796
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[0]:/
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1764658.739014
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : 0.000000
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 338
+  .runnable_load_avg             : 0
+  .util_avg                      : 443
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+
+rt_rq[0]:
+  .rt_nr_running                 : 0
+  .rt_nr_migratory               : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.655286
+  .rt_runtime                    : 950.000000
+
+dl_rq[0]:
+  .dl_nr_running                 : 0
+  .dl_nr_migratory               : 0
+  .dl_bw->bw                     : 996147
+  .dl_bw->total_bw               : 0
+
+runnable tasks:
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+-----------------------------------------------------------------------------------------------------------
+ I   kworker/0:0H     4       265.888751         7   100         0.000000         0.020151         0.000000 /
+ I   mm_percpu_wq     6         9.083031         2   100         0.000000         0.000000         0.000000 /
+ S    ksoftirqd/0     7   1757952.414615      3176   120         0.000000        25.226037         0.000000 /
+ I         rcu_bh     9         9.022713         2   120         0.000000         0.000000         0.000000 /
+ S    migration/0    10         9.083031      1199     0         0.000000        10.678510         0.000000 /
+ S     watchdog/0    11         0.066165     24355     0         0.000000        65.075120         0.000000 /
+ S        cpuhp/0    12      1788.509768        14   120         0.000000         0.173426         0.000000 /
+ S     khugepaged    41   1763753.571246      9557   139         0.000000       770.604611         0.000000 /
+ I       kthrotld    79        39.365850         2   100         0.000000         0.003995         0.000000 /
+ S      scsi_eh_1   156      2230.675757        29   120         0.000000         0.340831         0.000000 /
+ I     scsi_tmf_1   157       220.752627         2   100         0.000000         0.006065         0.000000 /
+ S      scsi_eh_3   160      2230.037075         4   120         0.000000         0.024666         0.000000 /
+ S      scsi_eh_4   162      2230.674002        31   120         0.000000         0.384749         0.000000 /
+ I   kworker/0:1H   174   1764559.615369    119571   100         0.000000       436.271816         0.000000 /
+ S    jbd2/sda1-8   183   1764557.200336      5395   120         0.000000       171.820282         0.000000 /
+ Iext4-rsv-conver   184       292.953168         2   100         0.000000         0.051337         0.000000 /
+ S  systemd-udevd   343       504.093732       585   120         0.000000       194.517459         0.000000 /autogroup-70
+ Supstart-socket-   512        19.072377      2426   120         0.000000        61.196228         0.000000 /autogroup-97
+ S  i915/signal:0   538         0.000000   1271160    98         0.000000     18644.912587         0.000000 /
+ S  i915/signal:2   540         0.000000     29933    98         0.000000       199.641270         0.000000 /
+ S      in:imklog   770        57.014463      3435   120         0.000000       162.561159         0.000000 /autogroup-162
+ S    dbus-daemon   779      4422.394586      4664   120         0.000000       351.818807         0.000000 /autogroup-165
+ S   ModemManager   792        13.571896        42   120         0.000000         8.759845         0.000000 /autogroup-174
+ S          gmain   845         8.294724         5   120         0.000000         0.093103         0.000000 /autogroup-174
+ S     kerneloops   924         0.538861      1604   120         0.000000        38.067750         0.000000 /autogroup-213
+ S          inetd   941         0.686983         1   120         0.000000         0.398148         0.000000 /autogroup-214
+ S NetworkManager   953       434.177176       893   120         0.000000       115.755943         0.000000 /autogroup-216
+ S NetworkManager   991         7.618424         1   120         0.000000         0.012413         0.000000 /autogroup-216
+ S          gdbus  1057       429.840925       426   120         0.000000        22.648924         0.000000 /autogroup-216
+ S           sshd   989         3.690466        45   120         0.000000         6.985175         0.000000 /autogroup-215
+ S   avahi-daemon   993        20.820833      4978   120         0.000000       255.516067         0.000000 /autogroup-217
+ S   cups-browsed  1041         1.303070       157   120         0.000000         9.471929         0.000000 /autogroup-235
+ S          gdbus  1076         9.598181        19   120         0.000000         1.008766         0.000000 /autogroup-237
+ S        lightdm  1083        81.225589       154   120         0.000000        29.951728         0.000000 /autogroup-245
+ S          gmain  1104        53.881008         9   120         0.000000         0.125761         0.000000 /autogroup-245
+ S        lightdm  1238        63.184983        22   120         0.000000        25.141128         0.000000 /autogroup-245
+ S        upowerd  1290      3665.138636       181   120         0.000000        17.918966         0.000000 /autogroup-165
+ S          gdbus  1302      1235.920477        31   120         0.000000         1.767994         0.000000 /autogroup-165
+ S   rtkit-daemon  1317       595.898212        39   121         0.000000         5.331049         0.000000 /autogroup-165
+ Sgnome-keyring-d  1679        16.749948       397   120         0.000000        35.779525         0.000000 /autogroup-292
+ S          gdbus  1801         8.231416         5   120         0.000000         0.279998         0.000000 /autogroup-292
+ S          gvfsd  1828      3446.708068       103   120         0.000000        18.870270         0.000000 /autogroup-300
+ S     gvfsd-fuse  1836       226.926462        15   120         0.000000         3.641331         0.000000 /autogroup-300
+ S     gvfsd-fuse  1837       226.959305         2   120         0.000000         0.056379         0.000000 /autogroup-300
+ S          gdbus  1838       257.512154        30   120         0.000000         1.375924         0.000000 /autogroup-300
+ S   dconf worker  1861        52.198880        23   120         0.000000         1.601701         0.000000 /autogroup-319
+ S          gmain  1863      9770.179799        37   120         0.000000         1.311358         0.000000 /autogroup-319
+ S    hud-service  1854       186.870797      2159   120         0.000000      1199.278953         0.000000 /autogroup-326
+ S   dconf worker  2036        10.306639        21   120         0.000000         1.428958         0.000000 /autogroup-326
+ S       ibus-x11  1858      9832.159335       426   120         0.000000        30.304288         0.000000 /autogroup-319
+ S          gdbus  1941      9773.325687       216   120         0.000000        11.524812         0.000000 /autogroup-319
+ S   dconf worker  1870         0.772318        22   120         0.000000         0.930502         0.000000 /autogroup-327
+ S          gdbus  1872         2.905475        19   120         0.000000         1.540664         0.000000 /autogroup-327
+ S   dconf worker  2031        23.744372        35   120         0.000000         2.093910         0.000000 /autogroup-328
+ S          gdbus  2032   1014862.112380       202   120         0.000000        11.763682         0.000000 /autogroup-328
+ Sunity-panel-ser  1869      1279.496685     26034   120         0.000000      3317.870060         0.000000 /autogroup-330
+ S          gdbus  1883      1279.422574     22412   120         0.000000      2827.218795         0.000000 /autogroup-330
+ S          gdbus  1900      3501.647136     29179   120         0.000000       983.488244         0.000000 /autogroup-300
+ Sindicator-keybo  1910      3497.303981      3203   120         0.000000       194.275772         0.000000 /autogroup-300
+ S   dconf worker  1923        54.732629        17   120         0.000000         0.683695         0.000000 /autogroup-300
+ S   dconf worker  1915         3.350533         3   120         0.000000         0.135769         0.000000 /autogroup-332
+ S          gdbus  1917         3.148359        32   120         0.000000         1.738602         0.000000 /autogroup-333
+ S   dconf worker  1925         2.515270         8   120         0.000000         0.418914         0.000000 /autogroup-333
+ S           pool  1979         7.342992        11   120         0.000000         4.322087         0.000000 /autogroup-335
+ S          gdbus  1983       149.200104      2887   120         0.000000       119.031549         0.000000 /autogroup-335
+ S          gdbus  1931        35.876489       406   120         0.000000       105.469232         0.000000 /autogroup-336
+ S          gdbus  1950       217.735780        21   120         0.000000         1.459013         0.000000 /autogroup-300
+ S         colord  1970       753.645876        41   120         0.000000        57.824953         0.000000 /autogroup-165
+ Sevolution-calen  2083      3084.666002       183   120         0.000000        67.367964         0.000000 /autogroup-300
+ S   dconf worker  2087       133.785652        16   120         0.000000         0.997688         0.000000 /autogroup-300
+ S   dconf worker  2100       839.495541        17   120         0.000000         1.183777         0.000000 /autogroup-328
+ Spolkit-gnome-au  2098   1268880.318004      2919   120         0.000000       109.182836         0.000000 /autogroup-328
+ S          gdbus  2103   1178468.090152       121   120         0.000000         9.043836         0.000000 /autogroup-328
+ S       nautilus  2099   1268880.335110      5946   120         0.000000       619.067633         0.000000 /autogroup-328
+ Sunity-fallback-  2118   1268880.323200      2985   120         0.000000       114.452080         0.000000 /autogroup-328
+ S       gconfd-2  2122      3494.862638      1697   120         0.000000        59.900366         0.000000 /autogroup-300
+ S    vino-server  2131   1268880.329776      3094   120         0.000000       716.120701         0.000000 /autogroup-328
+ S   dconf worker  2152       166.548998        27   120         0.000000         1.889132         0.000000 /autogroup-328
+ S          gmain  2172       169.144472         1   120         0.000000         0.027991         0.000000 /autogroup-300
+ S          gdbus  2169      4422.300452       185   120         0.000000         8.769799         0.000000 /autogroup-165
+ Sgvfs-afc-volume  2175      2582.698520        25   120         0.000000         4.392521         0.000000 /autogroup-300
+ S          gdbus  2186      2582.988148        40   120         0.000000         2.626008         0.000000 /autogroup-300
+ S          gdbus  2190      2583.050191        40   120         0.000000         2.726821         0.000000 /autogroup-300
+ S          gdbus  2196      3117.328760        83   120         0.000000         4.883856         0.000000 /autogroup-300
+ S          gmain  2197      3040.816597        43   120         0.000000         1.875251         0.000000 /autogroup-300
+ S          gdbus  2210       648.686065        23   120         0.000000         1.129403         0.000000 /autogroup-328
+ S          gdbus  2215       383.939614        27   120         0.000000         1.556638         0.000000 /autogroup-300
+ Szeitgeist-daemo  2232      3485.398553       879   120         0.000000        64.851611         0.000000 /autogroup-300
+ S          gdbus  2233      3446.751120       435   120         0.000000        41.104847         0.000000 /autogroup-300
+ S  zeitgeist-fts  2238      3446.668192       756   120         0.000000        94.236454         0.000000 /autogroup-300
+ S          gdbus  2243      3446.777518       275   120         0.000000        29.617226         0.000000 /autogroup-300
+ S           pool  2248       348.562746         3   120         0.000000         0.010892         0.000000 /autogroup-300
+ S           pool  2251       348.561164         2   120         0.000000         0.008126         0.000000 /autogroup-300
+ S          gdbus  2448      3939.986512        18   120         0.000000         0.960102         0.000000 /autogroup-328
+ S          gmain  2449    228085.572223        53   120         0.000000         2.116336         0.000000 /autogroup-328
+ S   dconf worker  2473      4698.010262        25   120         0.000000         1.456305         0.000000 /autogroup-328
+ I    kworker/0:2  5056   1764553.022133    115116   120         0.000000      1520.297372         0.000000 /
+ S        firefox  9394   1268989.030341  14893860   120         0.000000   4088888.906667         0.000000 /autogroup-328
+ S          gdbus  9400   1265551.082169      5815   120         0.000000       389.878943         0.000000 /autogroup-328
+ SAnalysis Helper  9406   1268038.921134    364153   120         0.000000      7675.727502         0.000000 /autogroup-328
+ SAnalysis Helper  9409   1266922.693530    364991   120         0.000000      8120.941468         0.000000 /autogroup-328
+ S        ImageIO  9428   1120419.472383      4445   120         0.000000       218.909756         0.000000 /autogroup-328
+ S  mozStorage #1  9438   1242608.749752       159   120         0.000000        24.488913         0.000000 /autogroup-328
+ SProxy R~olution  9439     16059.265979         3   120         0.000000         0.034616         0.000000 /autogroup-328
+ S     DOM Worker  9450   1122905.120907       389   120         0.000000       152.648301         0.000000 /autogroup-328
+ SlocalStorage DB  9452    902253.018091        40   121         0.000000         3.517215         0.000000 /autogroup-328
+ S  mozStorage #6  9457   1037363.390139       380   120         0.000000        29.837744         0.000000 /autogroup-328
+ S  Net Predictor  9459     16187.597348         2   120         0.000000         0.079685         0.000000 /autogroup-328
+ S     DOM Worker  9499    916791.270929       415   121         0.000000       453.567605         0.000000 /autogroup-328
+ S     DOM Worker  9500    404762.279684       528   121         0.000000       784.730225         0.000000 /autogroup-328
+ S     source:src 22763   1268972.211615    111625   120         0.000000      5210.455570         0.000000 /autogroup-328
+ S          gdbus  9591   1213246.784892      1999   120         0.000000       119.226538         0.000000 /autogroup-328
+ Schromium-browse 16332    407665.066499         1   120         0.000000         0.121490         0.000000 /autogroup-328
+ S    threaded-ml 16340    408552.636514        11   120         0.000000         0.943914         0.000000 /autogroup-328
+ S Proxy resolver 16353    407751.692422         1   120         0.000000         0.035507         0.000000 /autogroup-328
+ S Proxy resolver 16362    407784.400940         1   120         0.000000         0.026238         0.000000 /autogroup-328
+ SNSS SSL ThreadW 16373   1232958.474352      3437   120         0.000000       680.037745         0.000000 /autogroup-328
+ SBrowserBlocking 16409   1268499.717007      2310   120         0.000000      2736.960085         0.000000 /autogroup-328
+ SCachePoolWorker 16500    895421.730893       154   120         0.000000         3.849366         0.000000 /autogroup-328
+ S       Watchdog 16358   1268922.198385     36516   120         0.000000      1436.967414         0.000000 /autogroup-328
+ SChrome_ChildIOT 16359    407847.821706         9   120         0.000000         0.376926         0.000000 /autogroup-328
+ Schromium-browse 16433   1267095.709722      3124   120         0.000000       786.219405         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16459    411578.497396        10   120         0.000000         1.088621         0.000000 /autogroup-328
+ Schromium-browse 16443   1267942.967277      1960   120         0.000000       175.754597         0.000000 /autogroup-328
+ SChrome_ChildIOT 16449   1063831.315776       114   120         0.000000         3.510849         0.000000 /autogroup-328
+ S     Compositor 16457    408222.461914         9   120         0.000000         0.232554         0.000000 /autogroup-328
+ SOptimizingCompi 16480    408320.575757         2   120         0.000000         0.074758         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16481    409482.430946         8   120         0.000000         0.261333         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16506    409549.856751         8   120         0.000000         0.327096         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16524    409484.623333         8   120         0.000000         0.319174         0.000000 /autogroup-328
+ Schromium-browse 16539   1268038.725749      2293   120         0.000000       429.601125         0.000000 /autogroup-328
+ SChrome_ChildIOT 16547   1063831.289246       539   120         0.000000        13.214829         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16549    409484.607865         8   120         0.000000         0.432719         0.000000 /autogroup-328
+ Schromium-browse 16556   1267282.927678      2810   120         0.000000       773.811181         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16570    409549.824434         8   120         0.000000         0.274540         0.000000 /autogroup-328
+ SHTMLParserThrea 16577    408928.272974        51   120         0.000000         3.356742         0.000000 /autogroup-328
+ S            man 18133        56.065668       156   120         0.000000        11.502038         0.000000 /autogroup-396
+ S            man 18225       111.847551        15   120         0.000000         7.052950         0.000000 /autogroup-397
+ I    kworker/0:0 18326    587714.823135         3   120         0.000000         0.008865         0.000000 /
+ S          gdbus 21947      3446.773016       750   120         0.000000        86.683638         0.000000 /autogroup-300
+ S          gmain 21992      3497.521988      1638   120         0.000000        62.647003         0.000000 /autogroup-300
+ S          gdbus 21977      3361.748392       199   120         0.000000        14.933401         0.000000 /autogroup-300
+ Sunity-music-dae 21964      3344.253846        48   120         0.000000        28.294798         0.000000 /autogroup-300
+ S   dconf worker 22010    864152.404998        19   120         0.000000         1.257885         0.000000 /autogroup-328
+ S          gdbus 22011    876506.522117       225   120         0.000000        11.731801         0.000000 /autogroup-328
+ S          gmain 22012   1117849.935318        11   120         0.000000         0.439449         0.000000 /autogroup-328
+ I   kworker/u8:1 24019   1764639.528960    103291   120         0.000000      1763.210183         0.000000 /
+
+cpu#1, 3591.654 MHz
+  .nr_running                    : 0
+  .load                          : 0
+  .nr_switches                   : 33136220
+  .nr_load_updates               : 24352872
+  .nr_uninterruptible            : 3151
+  .next_balance                  : 24.277875
+  .curr->pid                     : 0
+  .clock                         : 97413908.406788
+  .clock_task                    : 97413908.406788
+  .cpu_load[0]                   : 327
+  .cpu_load[1]                   : 268
+  .cpu_load[2]                   : 183
+  .cpu_load[3]                   : 110
+  .cpu_load[4]                   : 60
+  .avg_idle                      : 574988
+  .max_idle_balance_cost         : 500000
+
+cfs_rq[1]:/autogroup-328
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1311610.869248
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -453047.869766
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 69
+  .runnable_load_avg             : 0
+  .util_avg                      : 65
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 69
+  .tg_load_avg                   : 654
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413908.406788
+  .se->vruntime                  : 1800220.736899
+  .se->sum_exec_runtime          : 1549275.996945
+  .se->load.weight               : 111
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 7
+  .se->avg.util_avg              : 60
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[1]:/autogroup-251
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 157292.162436
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1607366.576578
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 112
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413853.712958
+  .se->vruntime                  : 1800210.868301
+  .se->sum_exec_runtime          : 157998.845341
+  .se->load.weight               : 1024
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[1]:/autogroup-290
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 973.003879
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1763685.735135
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413507.018005
+  .se->vruntime                  : 1800195.841747
+  .se->sum_exec_runtime          : 974.081379
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[1]:/autogroup-338
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 321.160225
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1764337.578789
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 52
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413637.924248
+  .se->vruntime                  : 1800200.360018
+  .se->sum_exec_runtime          : 3775.311514
+  .se->load.weight               : 503
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[1]:/autogroup-341
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 38684.908100
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1725973.830914
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 332
+  .runnable_load_avg             : 0
+  .util_avg                      : 330
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 327
+  .tg_load_avg                   : 1351
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413907.564748
+  .se->vruntime                  : 1800229.026648
+  .se->sum_exec_runtime          : 7314.446169
+  .se->load.weight               : 250
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 80
+  .se->avg.util_avg              : 330
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[1]:/
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1800229.026648
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : 35570.287634
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 89
+  .runnable_load_avg             : 0
+  .util_avg                      : 394
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+
+rt_rq[1]:
+  .rt_nr_running                 : 0
+  .rt_nr_migratory               : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 2.159536
+  .rt_runtime                    : 950.000000
+
+dl_rq[1]:
+  .dl_nr_running                 : 0
+  .dl_nr_migratory               : 0
+  .dl_bw->bw                     : 996147
+  .dl_bw->total_bw               : 0
+
+runnable tasks:
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+-----------------------------------------------------------------------------------------------------------
+ S        cpuhp/1    13      1150.950098        14   120         0.000000         0.108698         0.000000 /
+ S     watchdog/1    14         0.064737     24355     0         0.000000       176.768614         0.000000 /
+ S    migration/1    15         9.082324      1155     0         0.000000         6.114715         0.000000 /
+ S    ksoftirqd/1    16   1795984.268520      2233   120         0.000000        24.402652         0.000000 /
+ I    kworker/1:0    17   1800210.073633    118481   120         0.000000      1992.179385         0.000000 /
+ I   kworker/1:0H    18       625.433868         8   100         0.000000         0.020862         0.000000 /
+ I          netns    32         7.951807         2   100         0.000000         0.000388         0.000000 /
+ I    kworker/1:1    35      3141.590654        79   120         0.000000         1.099808         0.000000 /
+ S     kcompactd0    39        16.952056         2   120         0.000000         0.000254         0.000000 /
+ S           ksmd    40        25.952309         2   125         0.000000         0.000258         0.000000 /
+ I    kintegrityd    43        44.193977         2   100         0.000000         0.000965         0.000000 /
+ S      watchdogd    45         0.000000         2     0         0.000000         0.010204         0.000000 /
+ Iacpi_thermal_pm    80       304.813137         2   100         0.000000         0.003128         0.000000 /
+ I     scsi_tmf_2   159       498.548903         2   100         0.000000         0.005553         0.000000 /
+ I   kworker/1:1H   229   1795859.268580      1679   100         0.000000         9.053592         0.000000 /
+ S       mountall   237       121.097752      3706   120         0.000000       100.824789         0.000000 /autogroup-35
+ Supstart-udev-br   338        40.908346      3887   120         0.000000       129.978026         0.000000 /autogroup-65
+ S          getty   851         0.402050         1   120         0.000000         0.742305         0.000000 /autogroup-190
+ S          getty   862         0.417911         2   120         0.000000         0.805489         0.000000 /autogroup-201
+ S          gmain  1056       336.637891     24355   120         0.000000       644.687000         0.000000 /autogroup-216
+ S   avahi-daemon  1024         3.552581         3   120         0.000000         0.096761         0.000000 /autogroup-217
+ S          gdbus  1099        94.383127       148   120         0.000000        34.925514         0.000000 /autogroup-245
+ S           Xorg  1137    157280.638451    110880   120         0.000000      2475.839322         0.000000 /autogroup-251
+ Saccounts-daemon  1106      4847.956249      1774   120         0.000000       325.782932         0.000000 /autogroup-165
+ S aolserver4-nsd  1110        14.075535        61   120         0.000000        15.182777         0.000000 /autogroup-250
+ S aolserver4-nsd  1135        15.167656        17   120         0.000000         1.171383         0.000000 /autogroup-250
+ S          getty  1161         0.325781         2   120         0.000000         0.974999         0.000000 /autogroup-254
+ S          gdbus  1665        88.928977        43   120         0.000000         3.891153         0.000000 /autogroup-245
+ S           ntpd  1661       973.003879     98882   120         0.000000      2448.269063         0.000000 /autogroup-290
+ Sgnome-keyring-d  1680         7.958560         1   120         0.000000         0.007143         0.000000 /autogroup-292
+ S       dispatch  2027        15.660243         9   120         0.000000         0.092318         0.000000 /autogroup-292
+ S    dbus-daemon  1762      3404.927911     35809   120         0.000000      3589.044634         0.000000 /autogroup-300
+ Supstart-event-b  1773         3.589366       479   120         0.000000        20.355324         0.000000 /autogroup-311
+ Sunity-settings-  1825     17744.453971      8968   120         0.000000       962.545428         0.000000 /autogroup-324
+ S          gdbus  1846     17595.951520      1047   120         0.000000       121.174600         0.000000 /autogroup-324
+ S          gdbus  2037       356.001675      1801   120         0.000000       221.675670         0.000000 /autogroup-326
+ S          gmain  2039       347.638546        33   120         0.000000         1.006118         0.000000 /autogroup-326
+ S   dconf worker  1940        54.526535         7   120         0.000000         0.867666         0.000000 /autogroup-319
+ Sat-spi-bus-laun  1866        19.334361        38   120         0.000000         5.517593         0.000000 /autogroup-327
+ S          gmain  1874        17.174135         1   120         0.000000         0.019792         0.000000 /autogroup-327
+ S   dconf worker  1882        13.820525        52   120         0.000000         1.588645         0.000000 /autogroup-330
+ S          gmain  1888     10187.674896        34   120         0.000000         1.201461         0.000000 /autogroup-319
+ S          gmain  1902       178.964288         5   120         0.000000         0.106211         0.000000 /autogroup-300
+ Sat-spi2-registr  1897        84.117295     13300   120         0.000000       304.760841         0.000000 /autogroup-327
+ Sindicator-messa  1912         2.298198        44   120         0.000000        10.526431         0.000000 /autogroup-332
+ S   dconf worker  1977        -2.600968        12   120         0.000000         1.076548         0.000000 /autogroup-335
+ S          gmain  1987        12.377134         1   120         0.000000         0.024267         0.000000 /autogroup-335
+ Sindicator-sound  1924        69.248036      1259   120         0.000000       113.062527         0.000000 /autogroup-336
+ Salsa-sink-VT170  1942         0.000000    497376    94         0.000000     31959.220897         0.000000 /autogroup-338
+ S          gmain  2044       654.546469         1   120         0.000000         0.039117         0.000000 /autogroup-165
+ S  dconf-service  1975      2739.171328        65   120         0.000000        22.732069         0.000000 /autogroup-300
+ S          gdbus  1976      2738.135061        73   120         0.000000         4.364583         0.000000 /autogroup-300
+ S          gdbus  2079       113.199445        34   120         0.000000         1.886193         0.000000 /autogroup-300
+ S          gdbus  2011        57.692688       777   120         0.000000        84.613573         0.000000 /autogroup-339
+ S         compiz  2078   1311610.869248   6184771   120         0.000000    796125.423799         0.000000 /autogroup-328
+ S           pool 23801   1159330.721000         1   120         0.000000         0.003256         0.000000 /autogroup-328
+ S           pool 23803   1159321.746723         1   120         0.000000         0.004518         0.000000 /autogroup-328
+ Sevolution-calen  2088       121.790416        12   120         0.000000         4.163610         0.000000 /autogroup-300
+ S          gdbus  2101    924219.791116       151   120         0.000000         6.820786         0.000000 /autogroup-328
+ S   dconf worker  2102        90.668732        16   120         0.000000         1.653728         0.000000 /autogroup-328
+ S          gmain  2167       710.140470         5   120         0.000000         0.046926         0.000000 /autogroup-165
+ S probing-thread  2170       719.152106         1   120         0.000000         0.011642         0.000000 /autogroup-165
+ S        cleanup  2171       728.678813         4   120         0.000000         0.251687         0.000000 /autogroup-165
+ Sgvfs-mtp-volume  2180      2364.853348        21   120         0.000000         3.608714         0.000000 /autogroup-300
+ Sgvfs-gphoto2-vo  2188      2364.717034        27   120         0.000000         4.401717         0.000000 /autogroup-300
+ S     gvfsd-burn  2202       195.699751        26   120         0.000000         5.468253         0.000000 /autogroup-300
+ S   dconf worker  2217       218.055998         3   120         0.000000         0.177312         0.000000 /autogroup-300
+ S          gmain  2354     17535.950280        30   120         0.000000         1.204618         0.000000 /autogroup-324
+ Sgnome-pty-helpe  2356     17591.917566        64   120         0.000000         7.170624         0.000000 /autogroup-324
+ S   dconf worker  2447      3744.551952        17   120         0.000000         1.173261         0.000000 /autogroup-328
+ S           bash  2521      1094.339223       936   120         0.000000       438.858279         0.000000 /autogroup-342
+ S           bash  9335      2797.181216      1345   120         0.000000       108.275053         0.000000 /autogroup-352
+ S  Socket Thread  9402   1310340.134782     64275   120         0.000000      3995.354234         0.000000 /autogroup-328
+ SAnalysis Helper  9408   1310059.763177    364247   120         0.000000      7950.607559         0.000000 /autogroup-328
+ SAnalysis Helper  9410   1309960.795073    364702   120         0.000000      7964.040302         0.000000 /autogroup-328
+ S          gmain  9413   1311537.955977     22510   120         0.000000       605.864585         0.000000 /autogroup-328
+ S          Timer  9418   1311602.087750  13760650   120         0.000000    296708.317108         0.000000 /autogroup-328
+ S      GMPThread  9419     15363.742651         8   120         0.000000         0.367896         0.000000 /autogroup-328
+ S      Cache I/O  9442     15521.369390         4   120         0.000000         0.166480         0.000000 /autogroup-328
+ S  mozStorage #4  9447   1300643.268451     14720   120         0.000000      1579.752428         0.000000 /autogroup-328
+ S   Image Scaler  9449   1306237.328702      2179   120         0.000000      1682.131560         0.000000 /autogroup-328
+ S   MediaManager  9511     18476.714063         1   120         0.000000         0.032137         0.000000 /autogroup-328
+ S     DOM Worker 22428    914890.575926      1092   121         0.000000      1263.343307         0.000000 /autogroup-328
+ S gvfsd-metadata  9529      2629.220764       675   120         0.000000        87.008468         0.000000 /autogroup-300
+ S          gdbus  9530      2612.625956      1176   120         0.000000       133.024645         0.000000 /autogroup-300
+ S          gmain  9593   1311279.786529     22435   120         0.000000       638.401334         0.000000 /autogroup-328
+ S          cupsd 11469         2.315162       266   120         0.000000        20.953387         0.000000 /autogroup-380
+ S           bash 11990      1143.908528       247   120         0.000000        80.265877         0.000000 /autogroup-393
+ Schromium-browse 16318   1311601.484352    334394   120         0.000000     29764.168900         0.000000 /autogroup-328
+ S   dconf worker 16333    437914.787271        52   120         0.000000         3.036491         0.000000 /autogroup-328
+ S          gdbus 16334   1107569.404740      1210   120         0.000000        76.385113         0.000000 /autogroup-328
+ S inotify_reader 16336   1171752.728132       281   120         0.000000         7.750800         0.000000 /autogroup-328
+ S    AudioThread 16339    439601.632136        67   120         0.000000         3.626500         0.000000 /autogroup-328
+ SChrome_FileThre 16343   1301815.599520       855   120         0.000000        41.602152         0.000000 /autogroup-328
+ SChrome_FileUser 16344    445713.572719        12   120         0.000000         1.363239         0.000000 /autogroup-328
+ S      IndexedDB 16348   1107596.692720        25   120         0.000000         0.337895         0.000000 /autogroup-328
+ SBrowserWatchdog 16349   1109268.433001      1939   120         0.000000        68.789701         0.000000 /autogroup-328
+ SBrowserBlocking 16360   1311185.222478      2289   120         0.000000      2869.402045         0.000000 /autogroup-328
+ SBrowserBlocking 16364   1310489.572428      2488   120         0.000000      3097.812429         0.000000 /autogroup-328
+ S          gmain 16366   1164896.808441        13   120         0.000000         0.516734         0.000000 /autogroup-328
+ Sextension_crash 16390    438065.832127         1   120         0.000000         0.028205         0.000000 /autogroup-328
+ SCachePoolWorker 16410    908142.106623       147   120         0.000000         3.857875         0.000000 /autogroup-328
+ SCachePoolWorker 16464    906707.489000       172   120         0.000000         5.086407         0.000000 /autogroup-328
+ SCachePoolWorker 16501    908714.202060       159   120         0.000000         4.307486         0.000000 /autogroup-328
+ Schromium-browse 16326    437626.515094       213   120         0.000000       117.853367         0.000000 /autogroup-328
+ SChrome_ChildIOT 16437   1310203.268912      3167   120         0.000000       107.275064         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16462    440785.792687         9   120         0.000000         0.507504         0.000000 /autogroup-328
+ SOptimizingCompi 16452    438528.372393         2   120         0.000000         0.073495         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16453    439448.161529         8   120         0.000000         0.157475         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16482    439448.163861         8   120         0.000000         0.083792         0.000000 /autogroup-328
+ SChrome_ChildIOT 16498   1107605.691550       229   120         0.000000         6.830989         0.000000 /autogroup-328
+ SOptimizingCompi 16503    439287.964577        69   120         0.000000         8.486222         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16504    439452.600189         8   120         0.000000         0.422736         0.000000 /autogroup-328
+ SHTMLParserThrea 16526    438722.852991        24   120         0.000000         4.035995         0.000000 /autogroup-328
+ SOptimizingCompi 16520   1235689.692397        55   120         0.000000        18.662276         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16523    439449.475944         8   120         0.000000         0.292495         0.000000 /autogroup-328
+ SHTMLParserThrea 16538    438785.576438        33   120         0.000000         7.974433         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16550    439452.460677         8   120         0.000000         0.421349         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16568    439452.606853         8   120         0.000000         0.468858         0.000000 /autogroup-328
+ S          pager 18236       103.885482         9   120         0.000000         2.032311         0.000000 /autogroup-397
+ S   dconf worker 21946      2324.871930        25   120         0.000000         1.978111         0.000000 /autogroup-300
+ S   dconf worker 21978      2352.917191         4   120         0.000000         0.330518         0.000000 /autogroup-300
+ S           pool 21980      2362.160826         6   120         0.000000         0.073602         0.000000 /autogroup-300
+ S           pool 21983      3004.170945         3   120         0.000000         3.420941         0.000000 /autogroup-300
+ S          gmain 21984      3323.674309       224   120         0.000000         4.658697         0.000000 /autogroup-300
+ S          pager 24150        79.050348        72   120         0.000000         3.078667         0.000000 /autogroup-415
+ S           sudo 24266     38684.908100         6   120         0.000000        21.224674         0.000000 /autogroup-341
+
+cpu#2, 3591.654 MHz
+  .nr_running                    : 0
+  .load                          : 0
+  .nr_switches                   : 34119442
+  .nr_load_updates               : 24352872
+  .nr_uninterruptible            : -2882
+  .next_balance                  : 24.277879
+  .curr->pid                     : 0
+  .clock                         : 97413908.250402
+  .clock_task                    : 97413908.250402
+  .cpu_load[0]                   : 0
+  .cpu_load[1]                   : 0
+  .cpu_load[2]                   : 0
+  .cpu_load[3]                   : 0
+  .cpu_load[4]                   : 4
+  .avg_idle                      : 240836
+  .max_idle_balance_cost         : 500000
+
+cfs_rq[2]:/autogroup-328
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1219500.909337
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -545157.829677
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 48
+  .runnable_load_avg             : 0
+  .util_avg                      : 33
+  .removed.load_avg              : 6
+  .removed.util_avg              : 6
+  .removed.runnable_sum          : 311
+  .tg_load_avg_contrib           : 48
+  .tg_load_avg                   : 654
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413906.716870
+  .se->vruntime                  : 1693516.267891
+  .se->sum_exec_runtime          : 1455113.036530
+  .se->load.weight               : 84
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 3
+  .se->avg.util_avg              : 31
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/autogroup-338
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 663.357611
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1763995.381403
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 31
+  .runnable_load_avg             : 0
+  .util_avg                      : 2
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 31
+  .tg_load_avg                   : 52
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413905.413205
+  .se->vruntime                  : 1693507.154874
+  .se->sum_exec_runtime          : 7755.706512
+  .se->load.weight               : 792
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 2
+  .se->avg.util_avg              : 1
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/autogroup-251
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 163947.189204
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1600711.549810
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 109
+  .runnable_load_avg             : 0
+  .util_avg                      : 109
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 109
+  .tg_load_avg                   : 112
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413908.250402
+  .se->vruntime                  : 1693509.627775
+  .se->sum_exec_runtime          : 164596.005470
+  .se->load.weight               : 996
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 109
+  .se->avg.util_avg              : 108
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/autogroup-324
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 13224.097715
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1751434.641299
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 2
+  .runnable_load_avg             : 0
+  .util_avg                      : 2
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 2
+  .tg_load_avg                   : 25
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413901.626316
+  .se->vruntime                  : 1693507.125644
+  .se->sum_exec_runtime          : 14096.502911
+  .se->load.weight               : 512
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 1
+  .se->avg.util_avg              : 1
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/autogroup-236
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 835.749630
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1763822.989384
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413887.450773
+  .se->vruntime                  : 1693506.166884
+  .se->sum_exec_runtime          : 836.944094
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/autogroup-300
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 3359.127662
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1761299.611352
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413888.112283
+  .se->vruntime                  : 1693506.187297
+  .se->sum_exec_runtime          : 3923.944089
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/autogroup-319
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 10402.587218
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1754256.151796
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 6
+  .runnable_load_avg             : 0
+  .util_avg                      : 5
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 6
+  .tg_load_avg                   : 6
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413901.559711
+  .se->vruntime                  : 1693507.289808
+  .se->sum_exec_runtime          : 14952.741802
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/autogroup-162
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 67.048585
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1764591.690429
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 1
+  .runnable_load_avg             : 0
+  .util_avg                      : 1
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 1
+  .tg_load_avg                   : 2
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413906.888131
+  .se->vruntime                  : 1693507.336347
+  .se->sum_exec_runtime          : 79.128674
+  .se->load.weight               : 512
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 1
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1693516.267891
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -71142.471123
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 120
+  .runnable_load_avg             : 0
+  .util_avg                      : 155
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+
+rt_rq[2]:
+  .rt_nr_running                 : 0
+  .rt_nr_migratory               : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 950.000000
+
+dl_rq[2]:
+  .dl_nr_running                 : 0
+  .dl_nr_migratory               : 0
+  .dl_bw->bw                     : 996147
+  .dl_bw->total_bw               : 0
+
+runnable tasks:
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+-----------------------------------------------------------------------------------------------------------
+ S        cpuhp/2    19      2499.872616        14   120         0.000000         0.078219         0.000000 /
+ S     watchdog/2    20         0.133807     24355     0         0.000000       177.963060         0.000000 /
+ S    migration/2    21         9.151394      1350     0         0.000000         9.156385         0.000000 /
+ S    ksoftirqd/2    22   1693437.167091      4088   120         0.000000        35.518876         0.000000 /
+ I   kworker/2:0H    24      1512.228186         8   100         0.000000         0.028123         0.000000 /
+ S      kdevtmpfs    31   1094317.484348       194   120         0.000000         1.203681         0.000000 /
+ I    kworker/2:1    47   1693507.003149    915747   120         0.000000      9334.242827         0.000000 /
+ S        kswapd0    49   1455315.993752       354   120         0.000000       903.626129         0.000000 /
+ S      scsi_eh_0   154      2925.741675        37   120         0.000000         0.641909         0.000000 /
+ I     scsi_tmf_3   161      1475.738947         2   100         0.000000         0.037694         0.000000 /
+ S      scsi_eh_5   164      2925.716830        28   120         0.000000         0.395521         0.000000 /
+ I     scsi_tmf_5   165      1493.791973         2   100         0.000000         0.003028         0.000000 /
+ I   kworker/2:1H   180   1691201.278867      1524   100         0.000000         8.017090         0.000000 /
+ S  i915/signal:4   541         0.000000     29933    98         0.000000        78.826982         0.000000 /
+ Iext4-rsv-conver   600      2543.934101         2   100         0.000000         0.003538         0.000000 /
+ S           smbd   703      4623.833220      5093   120         0.000000       648.641759         0.000000 /autogroup-155
+ S       rsyslogd   768         0.538573         5   120         0.000000         0.700228         0.000000 /autogroup-162
+ S    in:imuxsock   769        63.997848       998   120         0.000000        31.670896         0.000000 /autogroup-162
+ S          gdbus   847         8.487119        11   120         0.000000         0.728746         0.000000 /autogroup-174
+ S          getty   840         0.198479         3   120         0.000000         0.962053         0.000000 /autogroup-186
+ S           smbd   841      4615.237152      1887   120         0.000000       109.011192         0.000000 /autogroup-155
+ S          getty   858         0.404125         2   120         0.000000         0.801031         0.000000 /autogroup-197
+ S          acpid  1042       835.749630     53289   120         0.000000      1866.661054         0.000000 /autogroup-236
+ S        polkitd  1059      4901.230817      1062   120         0.000000       138.899412         0.000000 /autogroup-165
+ S       whoopsie  1061         1.713158        45   120         0.000000         8.232366         0.000000 /autogroup-237
+ S     irqbalance  1096       382.622189      9763   120         0.000000      2719.965097         0.000000 /autogroup-248
+ S           Xorg  1103    163947.189204   6676018   120         0.000000    715523.396968         0.000000 /autogroup-251
+ S          gdbus  1109      5572.966529      1088   120         0.000000        48.112536         0.000000 /autogroup-165
+ S aolserver4-nsd  1124         8.011117         1   120         0.000000         0.059701         0.000000 /autogroup-250
+ I   kworker/u9:1  1141   1460914.367425     13301   100         0.000000       112.784610         0.000000 /
+ S          gmain  1301       159.708644         1   120         0.000000         0.034581         0.000000 /autogroup-165
+ S   rtkit-daemon  1318      5574.004499     14522   120         0.000000       195.751175         0.000000 /autogroup-165
+ S   rtkit-daemon  1319         0.000000     12987     0         0.000000       187.664156         0.000000 /autogroup-165
+ S        dnsmasq  1460       423.970948      2328   120         0.000000       132.840877         0.000000 /autogroup-216
+ S           nmbd  1631      1726.892287    102076   120         0.000000      6164.782630         0.000000 /autogroup-288
+ S          timer  1799         8.239788         1   120         0.000000         0.024605         0.000000 /autogroup-292
+ S       dispatch  2156        18.645767        10   120         0.000000         0.105629         0.000000 /autogroup-292
+ S       dispatch 21950        28.827154         7   120         0.000000         0.260049         0.000000 /autogroup-292
+ Supstart-file-br  1797         1.725143       377   120         0.000000        11.653147         0.000000 /autogroup-315
+ S    ibus-daemon  1810     10402.510135    249485   120         0.000000     14205.241968         0.000000 /autogroup-319
+ S          gdbus  1826     10402.618066    240624   120         0.000000     24300.423774         0.000000 /autogroup-319
+ S          gmain  1832        55.923689         4   120         0.000000         0.132830         0.000000 /autogroup-319
+ S   dconf worker  1845     12955.128941       233   120         0.000000         7.898418         0.000000 /autogroup-324
+ S    threaded-ml 19880     12942.629974       132   120         0.000000         4.236967         0.000000 /autogroup-324
+ S  gvfs-fuse-sub  1839       246.752174         4   120         0.000000         0.356460         0.000000 /autogroup-300
+ S          gmain  1851     10154.324666        38   120         0.000000         1.437786         0.000000 /autogroup-319
+ S          gmain  2035       729.522623        12   120         0.000000         0.411724         0.000000 /autogroup-328
+ Sibus-engine-sim  1886     10390.684298     63197   120         0.000000      3555.660790         0.000000 /autogroup-319
+ S          gdbus  1887     10390.900789    119608   120         0.000000      7132.768467         0.000000 /autogroup-319
+ S     bamfdaemon  1891      3359.127662    129839   120         0.000000      6106.068325         0.000000 /autogroup-300
+ S   dconf worker  1899        65.304644        18   120         0.000000         1.829928         0.000000 /autogroup-300
+ S          gdbus  1898        96.793005        59   120         0.000000         6.571611         0.000000 /autogroup-327
+ S          gdbus  1926        -4.022571        31   120         0.000000         1.035466         0.000000 /autogroup-332
+ Sindicator-bluet  1914         1.371448        16   120         0.000000         7.350280         0.000000 /autogroup-333
+ Sindicator-datet  1919       383.850753      1994   120         0.000000       535.314703         0.000000 /autogroup-335
+ Scal-client-dbus  2081        22.432789        41   120         0.000000         3.884567         0.000000 /autogroup-335
+ S          gmain  1951        14.365895         1   120         0.000000         0.020825         0.000000 /autogroup-336
+ S   dconf worker  2016        13.414927         7   120         0.000000         0.296009         0.000000 /autogroup-337
+ S     pulseaudio  1936       663.357611    534925   109         0.000000     24557.696229         0.000000 /autogroup-338
+ Salsa-sink-HDMI   1939         0.000000        25    94         0.000000         1.120838         0.000000 /autogroup-338
+ S          gmain  1981       130.664042         1   120         0.000000         0.029890         0.000000 /autogroup-300
+ Sevolution-sourc  1996      2536.056787       120   120         0.000000        32.947204         0.000000 /autogroup-300
+ S          gmain  2045       169.300259         3   120         0.000000         0.064134         0.000000 /autogroup-300
+ Sindicator-sessi  1997        44.574791       560   120         0.000000        70.575868         0.000000 /autogroup-339
+ Sindicator-appli  1999         6.617373       295   120         0.000000        22.501410         0.000000 /autogroup-340
+ S   dconf worker  2094    959361.473818       321   120         0.000000        16.836509         0.000000 /autogroup-328
+ S          gdbus  2095   1218885.384195     26925   120         0.000000      2991.554634         0.000000 /autogroup-328
+ S           pool 23800   1068185.546648         4   120         0.000000         0.015460         0.000000 /autogroup-328
+ S          gmain  2086       188.320140         1   120         0.000000         0.036284         0.000000 /autogroup-300
+ S          gmain  2166   1081466.784899       679   120         0.000000        32.752389         0.000000 /autogroup-328
+ S   dconf worker  2125       148.594861        18   120         0.000000         1.440724         0.000000 /autogroup-328
+ S          gdbus  2126   1133798.416096       197   120         0.000000        16.043032         0.000000 /autogroup-328
+ S          gdbus  2153       546.396934        31   120         0.000000         1.773968         0.000000 /autogroup-328
+ S          gdbus  2148      3347.620562       223   120         0.000000        22.628501         0.000000 /autogroup-300
+ Sgvfs-afc-volume  2176       882.757251         7   120         0.000000         0.118614         0.000000 /autogroup-300
+ S          gdbus  2178      2720.845637        44   120         0.000000         2.879780         0.000000 /autogroup-300
+ S    gvfsd-trash  2195      3031.496980        85   120         0.000000        12.404125         0.000000 /autogroup-300
+ S          gdbus  2203       264.896452        29   120         0.000000         1.355690         0.000000 /autogroup-300
+ Smission-control  2212      3327.310323       301   120         0.000000        36.151481         0.000000 /autogroup-300
+ Szeitgeist-datah  2240      3289.897880       122   120         0.000000        34.212603         0.000000 /autogroup-300
+ S          gdbus  2242      3289.951822        92   120         0.000000         7.376199         0.000000 /autogroup-300
+ S           pool  2249       369.832724         3   120         0.000000         0.026495         0.000000 /autogroup-300
+ S           pool  2250       378.829375         2   120         0.000000         0.024431         0.000000 /autogroup-300
+ S          gmain  2254      3349.782491     24595   120         0.000000       729.492485         0.000000 /autogroup-300
+ S   dconf worker  2351        72.665516        18   120         0.000000         2.315085         0.000000 /autogroup-324
+ S          gdbus  2352     13215.201756    118561   120         0.000000      6437.758733         0.000000 /autogroup-324
+ S           bash  2357     41104.423945      5038   120         0.000000      1426.595667         0.000000 /autogroup-341
+ Supdate-notifier  2444   1219375.390645      3645   120         0.000000       146.858542         0.000000 /autogroup-328
+ Sdeja-dup-monito  2470      3227.697062        60   120         0.000000         9.018398         0.000000 /autogroup-328
+ SAnalysis Helper  9403   1218551.039455    363782   120         0.000000      7907.745959         0.000000 /autogroup-328
+ SAnalysis Helper  9405   1217969.974548    364219   120         0.000000      7770.760193         0.000000 /autogroup-328
+ SAnalysis Helper  9407   1217856.300287    363876   120         0.000000      7960.226895         0.000000 /autogroup-328
+ S    JS Watchdog  9411   1219458.114976     89517   120         0.000000      1513.062309         0.000000 /autogroup-328
+ S     Cache2 I/O  9417   1218091.745698      9536   120         0.000000       479.233528         0.000000 /autogroup-328
+ S     DOM Worker  9426   1016093.442548       311   120         0.000000        66.220315         0.000000 /autogroup-328
+ S     Compositor  9430   1219491.970584    743759   120         0.000000     18634.310787         0.000000 /autogroup-328
+ SImageBridgeChil  9431   1219492.005634   1066053   120         0.000000     24338.250636         0.000000 /autogroup-328
+ S        firefox  9436   1031749.842903        21   120         0.000000         2.133556         0.000000 /autogroup-328
+ S    Cert Verify  9437     13115.549133         1   120         0.000000         0.022873         0.000000 /autogroup-328
+ S  mozStorage #2  9444    884481.125055       108   120         0.000000         9.020397         0.000000 /autogroup-328
+ S  mozStorage #3  9445   1059708.071253       101   120         0.000000         8.363557         0.000000 /autogroup-328
+ S  mozStorage #5  9448   1219397.100998    134300   120         0.000000      9423.606857         0.000000 /autogroup-328
+ S URL Classifier  9458   1195633.028040      8485   120         0.000000     31391.086592         0.000000 /autogroup-328
+ S  mozStorage #7  9569    877477.917540        42   120         0.000000         3.746020         0.000000 /autogroup-328
+ S    threaded-ml 17563   1219492.178883    326085   120         0.000000     16587.369469         0.000000 /autogroup-328
+ S     vqueue:src 22766   1219491.984141    152112   120         0.000000      7359.464645         0.000000 /autogroup-328
+ SMedia S~ine #10 23843   1219492.193879    201007   120         0.000000     24846.228934         0.000000 /autogroup-328
+ SMedia D~ode #27 23844   1219492.328123    372980   120         0.000000      8261.032218         0.000000 /autogroup-328
+ SMedia D~ode #28 23845   1219492.205701    374003   120         0.000000      8312.492530         0.000000 /autogroup-328
+ SMedia D~ode #29 23847   1219491.933885    370376   120         0.000000      8149.195837         0.000000 /autogroup-328
+ T         cscope 12193      1075.802486     60715   120         0.000000      3125.036325         0.000000 /autogroup-352
+ SNetworkChangeNo 16335    392625.696101         9   120         0.000000         0.933402         0.000000 /autogroup-328
+ SCrShutdownDetec 16341    392634.783054         1   120         0.000000         0.086959         0.000000 /autogroup-328
+ SChrome_DBThread 16342   1020638.334331       304   120         0.000000        17.368666         0.000000 /autogroup-328
+ SChrome_ProcessL 16345   1021042.863822       231   120         0.000000       103.163577         0.000000 /autogroup-328
+ SChrome_CacheThr 16346   1218659.707640      3229   120         0.000000       172.911769         0.000000 /autogroup-328
+ Sgpu-process_cra 16351    392726.886495         1   120         0.000000         0.036292         0.000000 /autogroup-328
+ Srenderer_crash_ 16375    392874.337612         1   120         0.000000         0.027789         0.000000 /autogroup-328
+ SCachePoolWorker 16502    866951.518877       144   120         0.000000         3.950523         0.000000 /autogroup-328
+ S     LevelDBEnv 16668    394103.446038        13   120         0.000000         1.336746         0.000000 /autogroup-328
+ Schromium-browse 16324   1019705.276958       612   120         0.000000       496.430171         0.000000 /autogroup-328
+ S chrome-sandbox 16325    392568.195733         2   120         0.000000         0.983305         0.000000 /autogroup-328
+ Schromium-browse 16330   1021042.896302       102   120         0.000000        21.807515         0.000000 /autogroup-328
+ SOptimizingCompi 16458    393754.641607        43   120         0.000000         7.500803         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16460    396525.881900        10   120         0.000000         0.875387         0.000000 /autogroup-328
+ S     Compositor 16463    874676.694693       298   120         0.000000        72.216818         0.000000 /autogroup-328
+ SHTMLParserThrea 16466    393639.271004        26   120         0.000000         1.524856         0.000000 /autogroup-328
+ S          Media 16597    393754.265035        11   120         0.000000         1.258390         0.000000 /autogroup-328
+ SCrVideoRenderer 16599   1219491.925596   2420714   120         0.000000     50688.506562         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16454    394291.079328         8   120         0.000000         0.077811         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16456    394291.072402         8   120         0.000000         0.027583         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16483    394301.067319         8   120         0.000000         0.098756         0.000000 /autogroup-328
+ Schromium-browse 16490   1218802.040283      2236   120         0.000000       491.878187         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16505    394330.004840         8   120         0.000000         0.422698         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16522    394326.067347         8   120         0.000000         0.540059         0.000000 /autogroup-328
+ SOptimizingCompi 16548    394145.678155        45   120         0.000000         8.831215         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16552    394326.023875         8   120         0.000000         0.161770         0.000000 /autogroup-328
+ S     Compositor 16553    393745.503408        10   120         0.000000         0.239366         0.000000 /autogroup-328
+ SChrome_ChildIOT 16564   1021047.897099       544   120         0.000000        13.627309         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16569    394329.929408         8   120         0.000000         0.249563         0.000000 /autogroup-328
+ S     Compositor 16571    867027.372851        46   120         0.000000        13.093832         0.000000 /autogroup-328
+ I    kworker/2:0 19963   1016865.013786         2   120         0.000000         0.006195         0.000000 /
+ Sunity-scope-hom 21945      3348.098810       671   120         0.000000       310.439663         0.000000 /autogroup-300
+ Sunity-scope-loa 21958      3325.979745       404   120         0.000000       414.238616         0.000000 /autogroup-300
+ S   dconf worker 21965      2787.868190        22   120         0.000000         1.460758         0.000000 /autogroup-300
+ Sunity-files-dae 21962      3262.042282       665   120         0.000000        83.539928         0.000000 /autogroup-300
+ S           pool 21981      2702.889739         3   120         0.000000         0.021651         0.000000 /autogroup-300
+ S           pool 21982      3255.685693         5   120         0.000000         2.801709         0.000000 /autogroup-300
+ S          gdbus 21967      3259.680748        53   120         0.000000         5.091177         0.000000 /autogroup-300
+ Sgnome-calculato 22008   1219375.600906      4024   120         0.000000       367.655665         0.000000 /autogroup-328
+ I   kworker/u8:0 22095   1688190.205418    453866   120         0.000000      6774.497385         0.000000 /
+ S            vim 22126      1691.698183         7   120         0.000000        25.052106         0.000000 /autogroup-352
+ S            man 22859      1139.569027        19   120         0.000000         2.155952         0.000000 /autogroup-342
+ S           bash 24057        77.688421        66   120         0.000000        54.916689         0.000000 /autogroup-415
+ I   kworker/u8:3 24206   1663480.777116       416   120         0.000000         6.204367         0.000000 /
+ S            man 24225        61.947033        19   120         0.000000         1.918657         0.000000 /autogroup-416
+ S          pager 24235        64.004949        10   120         0.000000         2.712609         0.000000 /autogroup-416
+ D   kworker/u8:2 24249   1693507.015070      2318   120         0.000000        37.328868         0.000000 /
+
+cpu#3, 3591.654 MHz
+  .nr_running                    : 1
+  .load                          : 776
+  .nr_switches                   : 32463569
+  .nr_load_updates               : 24352868
+  .nr_uninterruptible            : -2441
+  .next_balance                  : 24.277880
+  .curr->pid                     : 24267
+  .clock                         : 97413906.993576
+  .clock_task                    : 97413906.993576
+  .cpu_load[0]                   : 0
+  .cpu_load[1]                   : 0
+  .cpu_load[2]                   : 0
+  .cpu_load[3]                   : 0
+  .cpu_load[4]                   : 6
+  .avg_idle                      : 494212
+  .max_idle_balance_cost         : 500000
+
+cfs_rq[3]:/autogroup-328
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1244665.155594
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -519993.583420
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 96
+  .runnable_load_avg             : 0
+  .util_avg                      : 91
+  .removed.load_avg              : 52
+  .removed.util_avg              : 48
+  .removed.runnable_sum          : 2443
+  .tg_load_avg_contrib           : 96
+  .tg_load_avg                   : 656
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413905.632588
+  .se->vruntime                  : 1732723.899752
+  .se->sum_exec_runtime          : 1473565.426645
+  .se->load.weight               : 168
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 14
+  .se->avg.util_avg              : 89
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[3]:/autogroup-251
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 210784.719762
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1553874.019252
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 112
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413893.365258
+  .se->vruntime                  : 1732714.331289
+  .se->sum_exec_runtime          : 211294.452477
+  .se->load.weight               : 1024
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[3]:/autogroup-338
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 509.874732
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1764148.864282
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 21
+  .runnable_load_avg             : 0
+  .util_avg                      : 1
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 21
+  .tg_load_avg                   : 52
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413905.347184
+  .se->vruntime                  : 1732714.566864
+  .se->sum_exec_runtime          : 5948.325396
+  .se->load.weight               : 542
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[3]:/autogroup-300
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 4288.824940
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1760369.914074
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413902.690857
+  .se->vruntime                  : 1732714.535801
+  .se->sum_exec_runtime          : 4844.697389
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[3]:/autogroup-324
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 12270.302455
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1752388.436559
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 23
+  .runnable_load_avg             : 0
+  .util_avg                      : 23
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 23
+  .tg_load_avg                   : 25
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413902.077945
+  .se->vruntime                  : 1732715.450411
+  .se->sum_exec_runtime          : 13117.486783
+  .se->load.weight               : 910
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 20
+  .se->avg.util_avg              : 23
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[3]:/autogroup-162
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 144.950388
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1764513.788626
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 1
+  .runnable_load_avg             : 0
+  .util_avg                      : 1
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 1
+  .tg_load_avg                   : 2
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413906.908080
+  .se->vruntime                  : 1732714.990281
+  .se->sum_exec_runtime          : 146.350903
+  .se->load.weight               : 512
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 1
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[3]:/autogroup-165
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 4637.537084
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1760021.201930
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413906.774305
+  .se->vruntime                  : 1732714.925751
+  .se->sum_exec_runtime          : 1956.303711
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[3]:/autogroup-341
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 35838.155685
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -1728820.583329
+  .nr_spread_over                : 0
+  .nr_running                    : 1
+  .load                          : 1024
+  .runnable_weight               : 1024
+  .load_avg                      : 1024
+  .runnable_load_avg             : 1024
+  .util_avg                      : 512
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 1024
+  .tg_load_avg                   : 1351
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 97413906.993576
+  .se->vruntime                  : 1732714.899752
+  .se->sum_exec_runtime          : 7650.382173
+  .se->load.weight               : 776
+  .se->runnable_weight           : 776
+  .se->avg.load_avg              : 776
+  .se->avg.util_avg              : 512
+  .se->avg.runnable_load_avg     : 776
+
+cfs_rq[3]:/
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1732723.899752
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -31934.839262
+  .nr_spread_over                : 0
+  .nr_running                    : 1
+  .load                          : 776
+  .runnable_weight               : 776
+  .load_avg                      : 813
+  .runnable_load_avg             : 776
+  .util_avg                      : 630
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+
+rt_rq[3]:
+  .rt_nr_running                 : 0
+  .rt_nr_migratory               : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 950.000000
+
+dl_rq[3]:
+  .dl_nr_running                 : 0
+  .dl_nr_migratory               : 0
+  .dl_bw->bw                     : 996147
+  .dl_bw->total_bw               : 0
+
+runnable tasks:
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+-----------------------------------------------------------------------------------------------------------
+ S           init     1       419.387913      3415   120         0.000000       821.904228         0.000000 /autogroup-2
+ S       kthreadd     2   1702008.442717       271   120         0.000000         5.220996         0.000000 /
+ I      rcu_sched     8   1732714.905789   2190927   120         0.000000     13689.921181         0.000000 /
+ S        cpuhp/3    25      1987.265183        15   120         0.000000         0.098850         0.000000 /
+ S     watchdog/3    26         5.999997     24355     0         0.000000       132.839969         0.000000 /
+ S    migration/3    27        15.017584      1134     0         0.000000         7.915596         0.000000 /
+ S    ksoftirqd/3    28   1727110.899608      1203   120         0.000000        25.967463         0.000000 /
+ I   kworker/3:0H    30       442.113203         8   100         0.000000         0.055468         0.000000 /
+ S        kauditd    33         7.953538         3   120         0.000000         0.002119         0.000000 /
+ S     khungtaskd    36   1730402.867845       808   120         0.000000        29.182056         0.000000 /
+ S     oom_reaper    37     28841.807006         4   120         0.000000         0.006587         0.000000 /
+ I      writeback    38        43.954808         2   100         0.000000         0.000241         0.000000 /
+ I         crypto    42        52.955526         2   100         0.000000         0.000723         0.000000 /
+ I        kblockd    44        61.956276         2   100         0.000000         0.000755         0.000000 /
+ I    kworker/3:1    51   1732650.382541     82329   120         0.000000      1715.851983         0.000000 /
+ I     scsi_tmf_0   155       432.480950         2   100         0.000000         0.005257         0.000000 /
+ S      scsi_eh_2   158      2191.908414         4   120         0.000000         0.021156         0.000000 /
+ I     scsi_tmf_4   163       450.500089         2   100         0.000000         0.010669         0.000000 /
+ I   kworker/3:1H   173   1729760.998463      5400   100         0.000000        30.626856         0.000000 /
+ I   kworker/u9:0   537      2078.765081         4   100         0.000000         0.069072         0.000000 /
+ S  i915/signal:1   539         0.000000     29933    98         0.000000       241.777161         0.000000 /
+ S    jbd2/sda6-8   599   1732659.634509     16221   120         0.000000       489.055326         0.000000 /
+ Supstart-file-br   692        11.586956      1834   120         0.000000        48.037611         0.000000 /autogroup-152
+ S  rs:main Q:Reg   771       144.950388      1688   120         0.000000       184.034212         0.000000 /autogroup-162
+ S     bluetoothd   800         0.017637        39   120         0.000000         2.052101         0.000000 /autogroup-175
+ S systemd-logind   836         5.669018       257   120         0.000000        34.733019         0.000000 /autogroup-183
+ S          getty   859         0.428678         2   120         0.000000         0.789392         0.000000 /autogroup-198
+ S           cron  1034       127.752785      1661   120         0.000000        62.830228         0.000000 /autogroup-230
+ S          gdbus  1063      3896.478475      2002   120         0.000000        81.696733         0.000000 /autogroup-165
+ S          gmain  1064        41.314752         4   120         0.000000         0.113901         0.000000 /autogroup-165
+ S          gmain  1074         3.489931         2   120         0.000000         0.038512         0.000000 /autogroup-237
+ S          gmain  1108      4628.593825      2596   120         0.000000        87.729022         0.000000 /autogroup-165
+ S aolserver4-nsd  1136         7.999057         1   120         0.000000         0.047640         0.000000 /autogroup-250
+ S   dconf worker  1800        18.116234        10   120         0.000000         0.976678         0.000000 /autogroup-292
+ S           init  1681       276.116259      1046   120         0.000000       156.842181         0.000000 /autogroup-293
+ Swindow-stack-br  1788        38.696410      1021   120         0.000000       159.809088         0.000000 /autogroup-312
+ Supstart-dbus-br  1794       260.199767     22105   120         0.000000      1021.633224         0.000000 /autogroup-314
+ Supstart-dbus-br  1798         5.167489      1158   120         0.000000        36.898710         0.000000 /autogroup-316
+ S          gmain  1849     12011.686610       695   120         0.000000        26.659697         0.000000 /autogroup-324
+ S          gdbus  1829      4242.133989       188   120         0.000000        13.612109         0.000000 /autogroup-300
+ S     gvfsd-fuse  1833        35.899623         4   120         0.000000         1.217042         0.000000 /autogroup-300
+ S     ibus-dconf  1841      8905.210801        38   120         0.000000         6.598853         0.000000 /autogroup-319
+ S          gdbus  1850      8905.259255        56   120         0.000000         3.564475         0.000000 /autogroup-319
+ S   dconf worker  1860        13.391054         7   120         0.000000         0.496037         0.000000 /autogroup-319
+ S   ibus-ui-gtk3  1848     10159.526042     30776   120         0.000000      4844.395087         0.000000 /autogroup-319
+ S          gdbus  1862     10159.162637     66946   120         0.000000      4937.813842         0.000000 /autogroup-319
+ S          gmain  2033      9896.064453        34   120         0.000000         1.241197         0.000000 /autogroup-319
+ S  gnome-session  1867   1244549.735904      3472   120         0.000000       213.154851         0.000000 /autogroup-328
+ S    dbus-daemon  1873       108.824885      1098   120         0.000000        69.306605         0.000000 /autogroup-327
+ S          gdbus  1928      4278.564129       643   120         0.000000        73.063801         0.000000 /autogroup-300
+ S          gmain  1916       196.227339     24334   120         0.000000       687.123095         0.000000 /autogroup-332
+ Sindicator-power  1918         8.310624        69   120         0.000000        11.448656         0.000000 /autogroup-334
+ S   dconf worker  1921         6.794985         9   120         0.000000         0.421879         0.000000 /autogroup-334
+ S          gdbus  1922         8.586813       129   120         0.000000         9.217128         0.000000 /autogroup-334
+ S   dconf worker  1932        12.908491         7   120         0.000000         0.216017         0.000000 /autogroup-336
+ Sindicator-print  1930        51.561640      2711   120         0.000000       127.861926         0.000000 /autogroup-337
+ S          gdbus  2023        21.300446        38   120         0.000000         2.071974         0.000000 /autogroup-337
+ Salsa-source-VT1  1943         0.000000        27    94         0.000000         0.874633         0.000000 /autogroup-338
+ S     notify-osd  1945      4279.827456      3751   120         0.000000       217.759221         0.000000 /autogroup-300
+ S   dconf worker  1949       357.866603        20   120         0.000000         1.354721         0.000000 /autogroup-300
+ S          gdbus  2043       671.804302       101   120         0.000000         3.898674         0.000000 /autogroup-165
+ S   dconf worker  2000         0.899888        10   120         0.000000         0.307366         0.000000 /autogroup-339
+ S          gdbus  2015        13.070256        53   120         0.000000         2.597057         0.000000 /autogroup-340
+ S          gmain  2085   1244509.610918     24388   120         0.000000       647.572665         0.000000 /autogroup-328
+ S           pool 23802   1094703.954555         2   120         0.000000         0.021037         0.000000 /autogroup-328
+ S          gdbus  2089      3795.936280       175   120         0.000000         9.642302         0.000000 /autogroup-300
+ S      nm-applet  2096   1244549.723915      3114   120         0.000000       184.650290         0.000000 /autogroup-328
+ S          gdbus  2136    913321.650299       567   120         0.000000        27.234745         0.000000 /autogroup-328
+ S   dconf worker  2137    913321.408315        57   120         0.000000         1.705990         0.000000 /autogroup-328
+ Sgvfs-udisks2-vo  2141      4278.412395       372   120         0.000000       110.841273         0.000000 /autogroup-300
+ S        udisksd  2150      4628.695275       355   120         0.000000        38.732043         0.000000 /autogroup-165
+ Stelepathy-indic  2206   1244549.718228      2982   120         0.000000       119.961958         0.000000 /autogroup-328
+ S   dconf worker  2209      1211.126256        17   120         0.000000         1.286286         0.000000 /autogroup-328
+ S          gmain  2268      4279.782243     24327   120         0.000000       662.163422         0.000000 /autogroup-300
+ S            cat  2255       538.630323         1   120         0.000000         0.390208         0.000000 /autogroup-300
+ S gnome-terminal  2350     12270.302455    344361   120         0.000000     52914.088423         0.000000 /autogroup-324
+ S          gdbus  2474      4559.354460       106   120         0.000000         3.585848         0.000000 /autogroup-328
+ S   dconf worker  9399     16236.623040        27   120         0.000000         1.774245         0.000000 /autogroup-328
+ S Gecko_IOThread  9401     16117.293055         2   120         0.000000         0.082398         0.000000 /autogroup-328
+ SAnalysis Helper  9404   1243290.496606    364864   120         0.000000      7805.726355         0.000000 /autogroup-328
+ S   Hang Monitor  9412     16172.197910         1   121         0.000000         0.025133         0.000000 /autogroup-328
+ S   HTML5 Parser  9421    896205.122843      1190   120         0.000000        66.024122         0.000000 /autogroup-328
+ SIPDL Background  9425    868701.275533         8   120         0.000000         0.176276         0.000000 /autogroup-328
+ S     DOM Worker  9504   1045055.095948       276   120         0.000000        81.859678         0.000000 /autogroup-328
+ S        firefox 16697    893667.039802     20895   120         0.000000       737.608609         0.000000 /autogroup-328
+ S Latency Logger 17562    418304.055956         5   120         0.000000         0.046036         0.000000 /autogroup-328
+ S         task16 22764   1244659.623712    111758   120         0.000000     37383.459471         0.000000 /autogroup-328
+ Smultiqueue3:src 22765   1244656.361182    162797   120         0.000000     10806.390102         0.000000 /autogroup-328
+ S     aqueue:src 22767   1244656.378806    117257   120         0.000000      9380.356834         0.000000 /autogroup-328
+ S    Media Audio 24036   1244656.195571     66028   120         0.000000      1753.435670         0.000000 /autogroup-328
+ S         evince  9588   1244549.842902     38477   120         0.000000     34490.023223         0.000000 /autogroup-328
+ S   dconf worker  9590     22318.770213        26   120         0.000000         1.212492         0.000000 /autogroup-328
+ S EvJobScheduler  9607    665047.260736       917   120         0.000000      6976.623492         0.000000 /autogroup-328
+ S        evinced  9595       821.739087        14   120         0.000000         2.163720         0.000000 /autogroup-300
+ S          gdbus  9597       825.519174        13   120         0.000000         0.791172         0.000000 /autogroup-300
+ T         cscope 12191       100.544421      9103   120         0.000000      1168.206731         0.000000 /autogroup-352
+ T         cscope 12198      1779.392283      4438   120         0.000000       988.041723         0.000000 /autogroup-352
+ SChrome_IOThread 16347   1244655.483962    264639   120         0.000000     20478.221876         0.000000 /autogroup-328
+ SChrome_SafeBrow 16363   1192324.283209       631   120         0.000000     20967.277884         0.000000 /autogroup-328
+ SChrome_HistoryT 16374   1224212.704007       457   120         0.000000        49.836297         0.000000 /autogroup-328
+ Schromium-browse 16352   1244637.675335     12808   120         0.000000       530.051750         0.000000 /autogroup-328
+ Schromium-browse 16357    410838.741450         1   120         0.000000         1.727343         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16461    413784.674336         9   120         0.000000         0.665510         0.000000 /autogroup-328
+ S          Media 16565    411653.941787        51   120         0.000000         4.330611         0.000000 /autogroup-328
+ S  FFmpegDemuxer 16581    411655.131189        70   120         0.000000        14.201557         0.000000 /autogroup-328
+ S          Media 16598    411653.563268         5   120         0.000000         0.799964         0.000000 /autogroup-328
+ SAudioOutputDevi 16631    412167.603479      1221   120         0.000000        19.543297         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16455    412018.895729         8   120         0.000000         0.059151         0.000000 /autogroup-328
+ SHTMLParserThrea 16465    411239.098754         6   120         0.000000         0.892362         0.000000 /autogroup-328
+ Schromium-browse 16473   1243668.408555      1950   120         0.000000       174.007485         0.000000 /autogroup-328
+ SChrome_ChildIOT 16479   1036264.507976        87   120         0.000000         3.101658         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16484    412019.940204         8   120         0.000000         0.032438         0.000000 /autogroup-328
+ S     Compositor 16485    411313.465423        10   120         0.000000         0.263969         0.000000 /autogroup-328
+ SHTMLParserThrea 16511    411322.509704         4   120         0.000000         0.666722         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16507    412082.580829         8   120         0.000000         0.371802         0.000000 /autogroup-328
+ S     Compositor 16508    411345.029551        10   120         0.000000         0.204759         0.000000 /autogroup-328
+ Schromium-browse 16512   1244625.580725     26662   120         0.000000      2784.940417         0.000000 /autogroup-328
+ SChrome_ChildIOT 16519   1036264.495757       350   120         0.000000         9.159793         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16521    412029.700185         9   120         0.000000         0.493417         0.000000 /autogroup-328
+ S     Compositor 16525    411350.480183         9   120         0.000000         0.248129         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16551    412041.493883         8   120         0.000000         0.230755         0.000000 /autogroup-328
+ SHTMLParserThrea 16601    411885.879215        44   120         0.000000         3.268610         0.000000 /autogroup-328
+ SOptimizingCompi 16566    411859.905846        26   120         0.000000         6.543756         0.000000 /autogroup-328
+ Sv8:SweeperThrea 16567    412065.854781         8   120         0.000000         0.502941         0.000000 /autogroup-328
+ S           bash 18085        28.355524        58   120         0.000000        32.358997         0.000000 /autogroup-396
+ S          pager 18146       114.302535        99   120         0.000000        23.146900         0.000000 /autogroup-396
+ S           bash 18161        61.097128        45   120         0.000000        41.757552         0.000000 /autogroup-397
+ I    kworker/3:0 19964   1035109.130363         2   120         0.000000         0.008686         0.000000 /
+ S          gdbus 21966      4242.150347       245   120         0.000000        22.695959         0.000000 /autogroup-300
+ S          gmain 21968      4280.094865      1637   120         0.000000        54.139446         0.000000 /autogroup-300
+ S          pager 22870       985.884239        66   120         0.000000         4.344343         0.000000 /autogroup-342
+ S            man 24139       129.001052        23   120         0.000000         7.916674         0.000000 /autogroup-415
+ S           bash 24158        57.872936        50   120         0.000000        45.912175         0.000000 /autogroup-416
+>R            cat 24267     35847.155677         0   120         0.000000         0.000000         0.000000 /autogroup-341
+
