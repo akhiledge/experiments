@@ -1,0 +1,6 @@
+#!/bin/bash
+# Script to compile and execute a c program in one step.
+
+# count lines of code in all .c files in the current directory 
+# ignoring comments
+find . -type f -name '*.c' -exec cat {} \; | sed '/^\s*#/d;/^\s*$/d;/^\s*\/\//d' | wc -l
